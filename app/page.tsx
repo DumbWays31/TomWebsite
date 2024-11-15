@@ -145,7 +145,7 @@ export default function Home() {
           >
             <h2 className="text-5xl font-bold mb-6">Capture Your Vision</h2>
             <p className="text-xl mb-8">We bring your ideas to life through stunning photography and captivating videos.</p>
-            <Button size="lg" className="bg-white text-purple-600 hover:bg-purple-100">
+            <Button size="lg" className="bg-white text-gray-600 hover:bg-purple-100">
               Get Started
               <ChevronRight className="ml-2 h-4 w-4" />
             </Button>
