@@ -92,7 +92,7 @@ export default function Home() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-3xl font-bold">PixelPulse</h1>
+            <h1 className="text-3xl font-bold">TomWebsite</h1>
           </motion.div>
           <nav className="hidden md:block">
             <motion.ul
@@ -145,7 +145,7 @@ export default function Home() {
           >
             <h2 className="text-5xl font-bold mb-6">Capture Your Vision</h2>
             <p className="text-xl mb-8">We bring your ideas to life through stunning photography and captivating videos.</p>
-            <Button size="lg" className="bg-white text-gray-600 hover:bg-purple-100">
+            <Button size="lg" className="bg-primary text-secondary hover:bg-secondary hover:text-primary">
               Get Started
               <ChevronRight className="ml-2 h-4 w-4" />
             </Button>
@@ -161,19 +161,19 @@ export default function Home() {
               viewport={{ once: true }}
               className="grid grid-cols-1 md:grid-cols-2 gap-12"
             >
-              <div className="bg-purple-100 p-8 rounded-lg shadow-lg">
-                <Camera className="h-12 w-12 text-purple-600 mb-4" />
-                <h3 className="text-2xl font-bold mb-4">Photography</h3>
-                <p className="text-gray-600 mb-4">From portraits to landscapes, we capture moments that last a lifetime.</p>
-                <Button variant="outline" className="text-purple-600 border-purple-600 hover:bg-purple-200">
+              <div className="bg-quinary p-8 rounded-lg shadow-lg">
+                <Camera className="h-12 w-12 text-secondary mb-4" />
+                <h3 className="text-2xl font-bold mb-4 text-primary">Photography</h3>
+                <p className="text-primary mb-4">From portraits to landscapes, we capture moments that last a lifetime.</p>
+                <Button variant="outline" className="text-secondary border-secondary hover:bg-secondary-200 hover:text-secondary">
                   Learn More
                 </Button>
               </div>
-              <div className="bg-pink-100 p-8 rounded-lg shadow-lg">
-                <Video className="h-12 w-12 text-pink-500 mb-4" />
-                <h3 className="text-2xl font-bold mb-4">Videography</h3>
-                <p className="text-gray-600 mb-4">Tell your story through dynamic and engaging video content.</p>
-                <Button variant="outline" className="text-pink-500 border-pink-500 hover:bg-pink-200">
+              <div className="bg-tertiary p-8 rounded-lg shadow-lg">
+                <Video className="h-12 w-12 text-quinary mb-4" />
+                <h3 className="text-2xl font-bold mb-4 text-primary">Videography</h3>
+                <p className="text-primary mb-4">Tell your story through dynamic and engaging video content.</p>
+                <Button variant="outline" className="text-quinary border-quinary hover:bg-quinary-200">
                   Learn More
                 </Button>
               </div>
@@ -240,7 +240,7 @@ export default function Home() {
 
       <footer className="bg-gray-800 text-white py-8">
         <div className="container mx-auto px-4 text-center">
-          <p>&copy; 2023 PixelPulse. All rights reserved.</p>
+          <p>&copy; 2024 TomWebsite. All rights reserved.</p>
         </div>
       </footer>
     </div>
